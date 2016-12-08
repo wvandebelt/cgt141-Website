@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Website</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/style_fix_newColor.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_resize.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script type= "text/javascript" src="javascript/slideshow.js"></script>
+<div id="container">
+	<div id="header">
+	<ul id="nav">
+	<li><a id="menuFont2" class="active2" href="index.html">Home</a></li>
+	<li><a class="menuFont" href="app.html">App</a></li>
+	<li><a class="menuFont" href="calendar.html">Calendar</a></li>
+	<li><a class="menuFont" href="trends.html">Trends</a></li>
+	</ul>
+	</div>
+	<div id="title">
+		<div id="slideshow_box">
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<img src="images/bottles.jpg" alt="bottles" />
+				</div>
+				
+				<div class="mySlides fade">
+					<img src="images/bar_image.jpg" alt="barImage" />
+				</div>
+				
+				<div class="mySlides fade">
+					<img src="images/bar2.jpg" alt="bar2" />
+				</div>
+				
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br />
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+		</div>
+	</div>
+	<div class="center_box">
+		<div class="container-third shadow">
+			<div class="container_image">
+				<a class="nohover" href="dinning.html"><img src="images/dinner.png" alt="dinning" /></a>
+			</div>
+			<div class="container_text">
+				<p>Click for more info on Purdue Dining</p>
+				<p>Menus, hours, and more.</p>
+				<p>Wait times are found in the App and Trends</p>
+			</div>
+		</div>
+		<div class="container-third shadow">
+			<div class="container_image">
+				<a class="nohover" href="bars.html"><img src="images/wine.png" alt="bars" /></a>
+			</div>
+			<div class="container_text">
+				<p>Click for more info on bars around Purdue</p>
+				<p>Location, hours, and more.</p>
+				<p>Wait times are found in the App and Trends</p>
+			</div>
+		</div>
+		<div class="container-third shadow">
+			<div class="container_image">
+				<a class="nohover" href="aboutApp.html"><img src="images/phone.png" alt="mobileApp" /></a>
+			</div>
+			<div class="container_text">
+				<p>Click for more info on the App itself</p>
+				<p>Updates, function, and more</p>
+				<p>Go to the App tab to go try it out now</p>
+			</div>
+		</div>
+	</div>
+	<div class="center_box">
+		<div class="content_box">
+			<div class="content_title">
+				<h2>How Purdue Dining is Today</h2>
+			</div>
+			<div class="content_text">
+				<video id="video" controls>
+					<source src="videos/diningCourtVideo.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer"></div>
+</div>
+</body>
+</html>

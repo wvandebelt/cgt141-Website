@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Website</title>	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="css/style_fix_newColor.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_resize5.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script type="text/javascript" src="javascript/date.js"></script>
+<div id="container">
+	<div id="header">
+	<ul id="nav">
+	<li><a class="menuFont" href="index.html">Home</a></li>
+	<li><a id="menuFont2" class="active2" href="app.html">App</a></li>
+	<li><a class="menuFont" href="calendar.html">Calendar</a></li>
+	<li><a class="menuFont" href="trends.html">Trends</a></li>
+	</ul>
+	</div>
+	<div id="title2">
+		<div class="title_center">
+			<div class="title_content">
+				<h5>App</h5>
+			</div>
+		</div>
+	</div>
+	
+	<div id="half_contentbox_right">
+		<div class="graph_title"><h1>Bar Wait Times</h1></div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>308</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed6"></div>
+				<div id="buttonFillerOpen6"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; bar308Time()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Brothers</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed7"></div>
+				<div id="buttonFillerOpen7"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; barBrothersTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Cactus</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed8"></div>
+				<div id="buttonFillerOpen8"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; cactusTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Harry's</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed9"></div>
+				<div id="buttonFillerOpen9"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; harrysTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Jake's</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed10"></div>
+				<div id="buttonFillerOpen10"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; jakesTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Where Else</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed11"></div>
+				<div id="buttonFillerOpen11"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; whereElseTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="half_contentbox">
+		<div class="graph_title"><h1>Dining Court Wait Times</h1></div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Earhart</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed"></div>
+				<div id="buttonFillerOpen"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; earhartTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Ford</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed1"></div>
+				<div id="buttonFillerOpen1"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; fordTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Hillenbrand</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed2"></div>
+				<div id="buttonFillerOpen2"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; hillenbrandTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Wiley</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed3"></div>
+				<div id="buttonFillerOpen3"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; wileyTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>Windsor</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed4"></div>
+				<div id="buttonFillerOpen4"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; windsorTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+		<div class="graph_title_container">
+			<div class="apptitle"><h1>The Gathering Place</h1></div>
+			<div class="earhart1">
+				<div id="buttonFillerClosed5"></div>
+				<div id="buttonFillerOpen5"></div>
+				<button class="centerButton" onclick="this.style.visibility= 'hidden'; gatheringPlaceTime()"><h6>Check Wait Time</h6></button>
+			</div>
+		</div>
+	</div>
+	<div id="submitWindow">
+		<div id="menuFont3" class="apptitle">Enter Your Wait Time</div>
+		<select id="choice1" onclick="checkSelected()">
+			<option value="1">Please Select</option>
+			<option value="diningcourts">Dining Courts</option>
+			<option value="bars">Bars</option>
+		</select>
+		<select id = "diningcourts" onclick="checkSelected2()">
+			<option value="earhart">Earhart</option>
+			<option value="ford">Ford</option>
+			<option value="hillenbrand">Hillenbrand</option>
+			<option value="windsor">Windsor</option>
+			<option value="wiley">Wiley</option>
+			<option value="gatheringplace">The Gathering Place</option>
+		</select>
+		<select id = "bars" onclick="checkSelected2()">
+			<option value="308">308</option>
+			<option value="brothers">Brothers</option>
+			<option value="cactus">Neon Cactus</option>
+			<option value="harrys">Harry's</option>
+			<option value="jakes">Jake's</option>
+			<option value="whereElse">Where Else</option>
+		</select>
+		<select id = "waitTime" onclick="checkSelected3()">
+			<option value="5">5min</option>
+			<option value="10">10min</option>
+			<option value="15">15min</option>
+			<option value="20">20min</option>
+			<option value="30">30min</option>
+			<option value="40">40min</option>
+			<option value="50">50min</option>
+			<option value="60">60min</option>
+			<option value="90">1hr30min</option>
+			<option value="220">longer</option>
+		</select>
+		<div id = "buttonFillerOpen12"></div>
+		<button id="buttonSubmit" onclick="buttonClicked()">submit</button>
+	</div>
+	<div id="footer"></div>
+</div>
+</body>
+</html>
